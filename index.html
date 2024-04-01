@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_content">
+            <div class="header_logo_contact">
+                <span class=" sub_header">Paul Schmitt</span>
+                <p>write me</p>
+                <div class="zoomout frame">
+                    <button class="mail_button" onclick="location.href='mailto:paulschmitt144@gmail.com'"><img
+                            src="img/email_icon.png" title="open mail client" />
+                    </button>
+                </div>
+            </div>
+            <div class="header_main">
+                <ul role="menubar" class="header_navigation_list">
+                    <li role="presentation">
+                        <a href="./index.html" role="menuitem" class="header_link">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#about" role="menuitem" class="header_link">About</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#work" role="menuitem" class="header_link">Work</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="home_content">
+            <!-- Portrait image-->
+            <img src="img/bewerbung_gross.JPG" class="profile__portrait" alt="Paul Schmitt Portrait">
+            <div class="home_info">
+                <h1>Hello World,</h1>
+                <p>my name is Paul Schmitt. I am an entry level web developer from Germany looking for new work
+                    opportunities. I recently completed CareerFoundry's Web Developer program, learning the fundamentals
+                    of Javascript, React, MongoDB and adjacent technologies.
+                </p>
+            </div>
+        </div>
+        <div class="social_media">
+            <!-- Github logo -->
+            <div class="social_link">
+                <a href="https://github.com/Paul-1783" target="_blank">
+                    <img src="img/github_icon.svg" alt="github">
+                </a>
+            </div>
+            <!-- LinkedIn logo -->
+            <div class="social_link">
+                <a href="https://www.linkedin.com/in/paul-schmitt-01820937/" target="_blank"><img
+                        src="img/linkedin_icon.svg" alt="linkedin"></a>
+            </div>
+            <!-- X logo -->
+            <div class="social_link">
+                <a href="https://twitter.com/PaulSchmitt9321" target="_blank">
+                    <img src="img/x_logo_twitter.svg" alt="twitter">
+                </a>
+            </div>
+            <!-- Medium logo -->
+            <div class="social_link">
+                <a href="https://medium.com/@paulschmitt144" target="_blank">
+                    <img src="img/medium_icon(1).svg" alt="medium" max-width="10px">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Work -->
+    <section id="work">
+        <h1 class="sub_header">Work</h1>
+        <div class="grid">
+            <!-- Grid items will live here -->
+            <div class="grid__item" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                <a href="https://paul-1783.github.io/meet/" target="_blank" class="button">
+                    <h1>Meet app</h1>
+                </a>
+                <img src="img/meet_app.png" width="500px">
+                <p>
+                    I implemented an exemplary App for event searching in a variety of cities. It is a serverless,
+                    progressive web application (PWA) with React using a
+                    test-driven development (TDD) technique. The application uses the Google
+                    Calendar API to fetch upcoming events.
+                </p>
+                <h1>Used technologies:</h1>
+                <div class="tech">
+                    <div class="tech_spec">React</div>
+                    <div class="tech_spec">Google OAuth</div>
+                    <div class="tech_spec">AWS for website hosting</div>
+                    <div class="tech_spec">Jest</div>
+                    <div class="tech_spec">Pupeteer</div>
+                    <div class="tech_spec">Atatus</div>
+                    <div class="tech_spec">React Recharts</div>
+                </div>
+                <a href="https://github.com/Paul-1783/meet" class="button" target="_blank">See project on GitHub</a>
+            </div>
+            <div class="grid__item" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                <a href="" target="_blank" class="button">
+                    <h1>MyFlix App</h1>
+                </a>
+                <img src="img/myFlix.png" width="500px">
+                <p>
+                    The server-side component of a “movies” web application. The web
+                    application provides users with access to information about different
+                    movies, directors, and genres. Users are able to sign up, update their
+                    personal information, and create a list of their favorite movies.
+                </p>
+                <h1>Used technologies:</h1>
+                <div class="tech">
+                    <div class="tech_spec">Javacript</div>
+                    <div class="tech_spec">Node.js</div>
+                    <div class="tech_spec">Express</div>
+                    <div class="tech_spec">MongoDB</div>
+                </div>
+                <a href="https://github.com/Paul-1783/myFlix" class="button" target="_blank">See project on GitHub</a>
+            </div>
+            <div class="grid__item" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                <a href="https://rococo-choux-147ff4.netlify.app/" target="_blank" class="button">
+                    <h1>Pokédex App</h1>
+                </a>
+                <img src="img/pokedex-app.png" width="500px">
+                <p>
+                    A small application that loads data from an external API and enables the viewing of data points in
+                    detail.
+                </p>
+                <h1>Used technologies:</h1>
+                <div class="tech">
+                    <div class="tech_spec">Html</div>
+                    <div class="tech_spec">CSS</div>
+                    <div class="tech_spec">Javacript</div>
+                </div>
+                <a href="https://github.com/Paul-1783/pokedex-board" class="button github_button" target="_blank">See
+                    project on
+                    GitHub</a>
+            </div>
+            <div class="grid__item" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                <a href="https://myflixmovielibrary.netlify.app/login" target="_blank" class="button">
+                    <h1>MyFlix-client App</h1>
+                </a>
+                <img src="img/myFlix-client.png" width="500px">
+                <p>
+                    The client-side for an app called myFlix based on its
+                    existing server-side code (the respective API is based on REST, the server also provides a
+                    database). The client was build with React technology.
+                </p>
+                <h1>Used technologies:</h1>
+                <div class="tech">
+                    <div class="tech_spec">Html</div>
+                    <div class="tech_spec">CSS</div>
+                    <div class="tech_spec">Javacript</div>
+                    <div class="tech_spec">React</div>
+                    <div class="tech_spec">Parcel</div>
+                    <div class="tech_spec">React-Bootstrap</div>
+                </div>
+                <a href="https://github.com/Paul-1783/myFlix-client" class="button" target="_blank">See project on
+                    GitHub</a>
+            </div>
+            <div class="grid__item" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                <a href="https://paul-1783.github.io/myFlix-Angular-client/welcome" target="_blank" class="button">
+                    <h1>MyFlix-Angular-client App</h1>
+                </a>
+                <img src="img/myFlix-Angular-client.png" width="500px">
+                <p>
+                    The client-side for an app called myFlix based on its
+                    existing server-side code (the respective API is based on REST, the server also provides a
+                    database). The client was build with Angular technology.
+                </p>
+                <h1>Used technologies:</h1>
+                <div class="tech">
+                    <div class="tech_spec">Html</div>
+                    <div class="tech_spec">CSS</div>
+                    <div class="tech_spec">Typescript</div>
+                    <div class="tech_spec">Typedoc</div>
+                    <div class="tech_spec">JSDoc</div>
+                    <div class="tech_spec">Angular</div>
+                    <div class="tech_spec">Angular Material</div>
+                </div>
+                <a href="https://github.com/Paul-1783/myFlix-Angular-client" class="button" target="_blank">See project
+                    on GitHub</a>
+            </div>
+            <div class="grid__item" data-aos="fade-up" data-aos-delay="30" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                <a href="" target="_blank" class="button">
+                    <h1>Chat App</h1>
+                </a>
+                <img src="img/chat-app7.png" width="500">
+                <p>
+                    A chat app for mobile devices using React Native. The app provides users with a chat interface and
+                    options to share images and their location.
+                </p>
+                <h1>Used technologies:</h1>
+                <div class="tech">
+                    <div class="tech_spec">Android Studio</div>
+                    <div class="tech_spec">Javascript</div>
+                    <div class="tech_spec">React Native</div>
+                    <div class="tech_spec">React Navigation</div>
+                    <div class="tech_spec">Expo platform</div>
+                </div>
+                <a href=" https://github.com/Paul-1783/chat-app" class="button" target="_blank">See project on
+                    GitHub</a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about_main">
+            <h3>Whoami</h3>
+            <div class="about_details">
+                <p class="about_details_para">
+                    I’ve worked over the past years in a variety of so-called odd jobs; among other things, I was a
+                    salesclerk in a
+                    bookstore in Pasing, Munich, encountering and interacting with people from all layers of German
+                    society. A job that gave
+                    me insight into the necessary mixture of patience as well as actual interest in and caring for
+                    co-workers and customers
+                    in a modern-day work environment.
+                </p>
+                <p class="about_details_para">I do consider myself, among other things, a bit of a tinker and a geek, so
+                    there was something missing in the
+                    aforementioned work life. I have already had some earlier experience with coding in a linguistic
+                    context and have always
+                    found it gratifying to see even the simplest of my programs actually work. As anybody who reads this
+                    can imagine,
+                    material reasons like good pay and a pleasant work place did factor into my decision to try to enter
+                    the web development
+                    world, but in terms of my attitude towards coding, I do hope for moments when I can actually
+                    rekindle that impression of
+                    gratification. I would like to think of myself as having the necessary combination of the qualities
+                    of maturity to be
+                    ready to face the daily routine of stressful programming work and also traces of the child-like
+                    passion for creating
+                    something through code.</p>
+                <p class="about_details_para">Apart from sportive activities like jogging and half-marathons, in my
+                    spare time, I do have a passion for literature and
+                    languages. Constantly fluctuating between sound and superficial knowledge, like anybody who tries to
+                    master several
+                    languages at the same time, I never cease my attempts to improve. A continuing wish I don’t give up
+                    on is to publish one
+                    day a novel: The older you get, the smaller your dreams become, but, not all of them.</p>
+            </div>
+            <div>
+                <a href="files/CV.pdf" class="button" download target="_blank">Download my CV</a>
+            </div>
+        </div>
+    </section>
+    <footer class="main_footer">
+        <div class="main_container">
+            <div class="social_footer">
+                <h2 class="social_footer_heading">
+                    <span>Social</span>
+                </h2>
+                <div class="social_content"><!-- Github logo -->
+                    <a href="https://github.com/Paul-1783" target="_blank">
+                        <img src="img/github_icon.svg" alt="github" class="footer_social_item">
+                    </a>
+                    <!-- LinkedIn logo -->
+                    <a href="https://www.linkedin.com/in/paul-schmitt-01820937/" target="_blank"><img
+                            src="img/linkedin_icon.svg" alt="linkedin" class="footer_social_item"></a>
+                    <!-- X logo -->
+                    <a href="https://twitter.com/PaulSchmitt9321" target="_blank">
+                        <img src="img/x_logo_twitter.svg" alt="twitter" class="footer_social_item">
+                    </a>
+                    <!-- Medium logo -->
+                    <a href="https://medium.com/@paulschmitt144" target="_blank">
+                        <img src="img/medium_icon(1).svg" alt="medium" max-width="10px" class="footer_social_item">
+                    </a>
+                </div>
+            </div>
+            <div class="footer_presentation">
+                <h2 class="social_footer_heading">Paul Schmitt</h2>
+                <p class="footer_short_descr">I am an entry level web developer from Germany
+                    looking for new work opportunities.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>
